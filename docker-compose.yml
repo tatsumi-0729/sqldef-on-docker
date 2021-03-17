@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  mysqldef:
+    build: ./mysqldef/
+    container_name: mysqldef_container
+    tty: true 
